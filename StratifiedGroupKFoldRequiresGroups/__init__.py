@@ -5,6 +5,11 @@ __email__ = "maxim@maximz.com"
 __version__ = "0.0.1"
 
 from sklearn.model_selection import StratifiedGroupKFold
+from typing import Any, Iterator, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    # skip unnecessary import unless running type checker
+    import numpy as np
 
 
 class StratifiedGroupKFoldRequiresGroups(StratifiedGroupKFold):
@@ -20,10 +25,10 @@ class StratifiedGroupKFoldRequiresGroups(StratifiedGroupKFold):
 
     def split(
         self,
-        X,
-        y,
-        groups,
-    ):
+        X: np.ndarray,
+        y: np.ndarray,
+        groups: np.ndarray,
+    ) -> Iterator[Any]:
         """Calls StratifiedGroupKFold.split() after verifying that a groups argument was provided."""
         if groups is None:
             raise ValueError(
