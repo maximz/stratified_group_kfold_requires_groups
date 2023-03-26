@@ -10,22 +10,25 @@ with open("README.md") as readme_file:
 with open("CHANGELOG.md") as history_file:
     history = history_file.read()
 
-requirements = []
+requirements = ["scikit-learn"]
 
 setup_requirements = [
     "pytest-runner",
 ]
 
-test_requirements = [
-    "pytest>=3",
-]
+test_requirements = ["pytest>=3", "numpy>=1.22.0"]
 
 setup(
     author="Maxim Zaslavsky",
     author_email="maxim@maximz.com",
     name="StratifiedGroupKFoldRequiresGroups",
     description="StratifiedGroupKFoldRequiresGroups",
-    packages=find_packages(include=["StratifiedGroupKFoldRequiresGroups", "StratifiedGroupKFoldRequiresGroups.*"]),
+    packages=find_packages(
+        include=[
+            "StratifiedGroupKFoldRequiresGroups",
+            "StratifiedGroupKFoldRequiresGroups.*",
+        ]
+    ),
     python_requires=">=3.7",
     version="0.0.1",
     classifiers=[
