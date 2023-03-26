@@ -2,7 +2,6 @@
 
 [![](https://img.shields.io/pypi/v/StratifiedGroupKFoldRequiresGroups.svg)](https://pypi.python.org/pypi/StratifiedGroupKFoldRequiresGroups)
 [![CI](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups/actions/workflows/ci.yaml)
-[![](https://img.shields.io/badge/docs-here-blue.svg)](https://StratifiedGroupKFoldRequiresGroups.maximz.com)
 [![](https://img.shields.io/github/stars/maximz/StratifiedGroupKFoldRequiresGroups?style=social)](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups)
 
 ## TODOs: Configuring this template
