@@ -1,4 +1,4 @@
-# StratifiedGroupKFoldRequiresGroups
+# StratifiedGroupKFoldRequiresGroups (WIP)
 
 [![](https://img.shields.io/pypi/v/StratifiedGroupKFoldRequiresGroups.svg)](https://pypi.python.org/pypi/StratifiedGroupKFoldRequiresGroups)
 [![CI](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups/actions/workflows/ci.yaml)
