@@ -1,5 +1,9 @@
 # StratifiedGroupKFoldRequiresGroups
 
+[![](https://img.shields.io/pypi/v/StratifiedGroupKFoldRequiresGroups.svg)](https://pypi.python.org/pypi/StratifiedGroupKFoldRequiresGroups)
+[![CI](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups/actions/workflows/ci.yaml)
+[![](https://img.shields.io/github/stars/maximz/StratifiedGroupKFoldRequiresGroups?style=social)](https://github.com/maximz/StratifiedGroupKFoldRequiresGroups)
+
 A small wrapper around scikit-learn's `StratifiedGroupKFold` that makes the
 `groups` argument mandatory when calling `split()`.
 
