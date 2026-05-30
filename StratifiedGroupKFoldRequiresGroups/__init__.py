@@ -4,7 +4,7 @@ from __future__ import annotations
 
 __author__ = """Maxim Zaslavsky"""
 __email__ = "maxim@maximz.com"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 from sklearn.model_selection import StratifiedGroupKFold
 from typing import Any, Iterator, TYPE_CHECKING
